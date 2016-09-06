@@ -34,24 +34,24 @@
         <setting label="XBMC Android" type="lsep"/>
         <setting id="android_app_id" type="text" label="Custom Android Application ID" default="org.xbmc.xbmc" />
     </category>
-    <category label="Scrapers"> 
+    <category label="Scrapers">
 
-    	<setting label="BitSnoop - Search Engine" type="lsep"/>    		
+    	<setting label="BitSnoop - Search Engine" type="lsep"/>
     	<setting id="display_bitsnoop" label="Display" type="bool" default="true" />
     	<setting id="bitsnoop_label" type="text" label="Label" default="BitSnoop Search" />
- 		<setting id="bitsnoop_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />      	
+ 		<setting id="bitsnoop_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />
     	<setting id="base_bitsnoop" type="text" label="Domain" default="http://bitsnoop.com"/>
-    	
-		<setting label="BTDigg - DHT Search Engine" type="lsep"/>    		
+
+		<setting label="BTDigg - DHT Search Engine" type="lsep"/>
     	<setting id="display_btdigg" label="Display" type="bool" default="true" />
     	<setting id="btdigg_label" type="text" label="Label" default="BTDigg Search" />
- 		<setting id="btdigg_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />      	
+ 		<setting id="btdigg_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />
     	<setting id="base_btdigg" type="text" label="Domain" default="http://btdigg.org"/>
-    	
-		<setting label="ExtraTorrent - Movies, Series, Anime" type="lsep"/>    		
+
+		<setting label="ExtraTorrent - Movies, Series, Anime" type="lsep"/>
     	<setting id="display_extratorrent" label="Display" type="bool" default="true" />
     	<setting id="extratorrent_label" type="text" label="Label" default="ExtraTorrent" />
- 		<setting id="extratorrent_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />      	
+ 		<setting id="extratorrent_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />
     	<setting id="base_extratorrent" type="text" label="Domain" default="http://extratorrent.cc" />
 
     	<setting label="EZTV Series Torrents" type="lsep"/>
@@ -59,43 +59,43 @@
     	<setting id="eztv_label" type="text" label="Label" default="TV Shows" />
     	<setting id="eztv_picture" type="text" label="Picture link" default="http://i.imgur.com/FDwFjse.png" />
     	<setting id="base_eztv" type="text" label="Domain" default="https://eztv.ch" />
-    	
- 		<setting label="Kickass Torrents" type="lsep"/>    		
+
+ 		<setting label="Kickass Torrents" type="lsep"/>
     	<setting id="display_kickass" label="Display" type="bool" default="true" />
     	<setting id="kat_label" type="text" label="Label" default="Kickass Torrents" />
- 		<setting id="kat_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />      	
+ 		<setting id="kat_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />
     	<setting id="base_kickass" type="text" label="Domain" default="http://kickass.to"/>
-    	
-  		<setting label="NyaaTorrents - Anime" type="lsep"/>    		
+
+  		<setting label="NyaaTorrents - Anime" type="lsep"/>
     	<setting id="display_nyaa" label="Display" type="bool" default="true" />
     	<setting id="nyaa_label" type="text" label="Label" default="NyaaTorrents" />
-      	<setting id="nyaa_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />      	
+      	<setting id="nyaa_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />
     	<setting id="base_nyaa" type="text" label="Domain" default="http://www.nyaa.se" />
-    	
+
   		<setting label="The Pirate Bay" type="lsep"/>
     	<setting id="display_tpb" label="Display" type="bool" default="true" />
     	<setting id="tpb_label" type="text" label="Label" default="The Pirate Bay" />
- 		<setting id="tpb_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />   	
+ 		<setting id="tpb_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />
     	<setting id="base_tpb" type="text" label="Domain" default="http://thepiratebay.org" />
-    		   		   		 
+
  		<setting label="YIFY Moives Torrents" type="lsep"/>
     	<setting id="display_yify" label="Display" type="bool" default="true" />
     	<setting id="yify_label" type="text" label="Label" default="Movies" />
     	<setting id="yify_picture" type="text" label="Picture link" default="http://i.imgur.com/PrwiRH8.png" />
-    	<setting id="base_yify" type="text" label="Domain" default="https://yts.to" />
-    
+    	<setting id="base_yify" type="text" label="Domain" default="https://yts.ag" />
+
     	<setting label="Zelka.org - Search Engine" type="lsep"/>
-      	<setting id="display_zelka" label="Display" type="bool" default="true" /> 
-      	<setting id="zelka_label" type="text" label="Label" default="Zelka Search" />	
-      	<setting id="zelka_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />	
+      	<setting id="display_zelka" label="Display" type="bool" default="true" />
+      	<setting id="zelka_label" type="text" label="Label" default="Zelka Search" />
+      	<setting id="zelka_picture" type="text" label="Picture link" default="http://i.imgur.com/kYDKHGo.png" />
       	<setting id="base_zelka" type="text" label="Domain" default="http://zelka.org" />
       	<setting label="Zelka User" id="z_usr" type="text" default="" />
       	<setting label="Zelka Password" id="z_pass" type="text" default="" option="hidden" />
-		
+
 		<setting label="CPasBien - Torrent Français [FR]" type="lsep"/>
-      	<setting id="display_cpb" label="Display" type="bool" default="false" /> 
-      	<setting id="cpb_label" type="text" label="Label" default="CPasBien - Torrent Français [FR]" />	
-      	<setting id="cpb_picture" type="text" label="Picture link" default="" />	
+      	<setting id="display_cpb" label="Display" type="bool" default="false" />
+      	<setting id="cpb_label" type="text" label="Label" default="CPasBien - Torrent Français [FR]" />
+      	<setting id="cpb_picture" type="text" label="Picture link" default="" />
       	<setting id="base_cpb" type="text" label="Domain" default="http://cpasbien.pw" />
     </category>
 	<category label="30140">
